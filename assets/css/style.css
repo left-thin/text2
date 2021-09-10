@@ -1,0 +1,222 @@
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row {
+    margin: 0 8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding: 0 8px;
+}
+
+.col-fourth {
+    width: 25%;
+}
+
+.p8-16 {
+    padding: 8px 16px;
+}
+
+.p32-16 {
+    padding: 32px 16px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    letter-spacing: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.name-header {
+    line-height: 54px;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.name-company {
+    display: inline;
+}
+
+.name-company b {
+    margin-right: 8px;
+}
+
+
+.nav li:hover a,
+.name-company:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.nav {
+    float: right;
+    margin-right: 16px;
+}
+
+.nav li {
+    display: block;
+    float: left;
+    line-height: 54px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#slider {
+    margin-top: 54px;
+    position: relative;
+    padding-top: 53.33333%;
+    background: url(/assets/img/slider/architect.jpg) no-repeat scroll top center /cover;
+}
+
+.content-slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    opacity: 0.75;
+}
+
+.slider-br {
+    background-color: #000;
+    font-weight: bold;
+    margin-right: 16px;
+    font-size: 36px;
+}
+
+/* CONTENT */
+
+#content {
+    padding: 8px 16px;
+}
+
+.heading-content {
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* PROJECT */
+.each-project {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.name-project {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+}
+
+.img-project {
+    width: 100%;
+}
+
+/* ABOUT */
+
+.about-text {
+    margin: 15px 0;
+}
+
+/* MEMBER - ABOUT */
+
+.img-member {
+    width: 100%;
+}
+
+.name-member {
+    font-weight: 100;
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.role-member {
+    opacity: 0.7;
+    margin: 15px 0;
+}
+
+.about-member {
+    margin: 15px 0;
+}
+
+.contact-member {
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    width: 100%;
+}
+
+.contact-member:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* CONTACT */
+
+.input-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.send-contact {
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 16px 0;
+    padding: 12px 16px;
+}
+
+.map {
+    margin: 0 16px;
+}
+
+.map-content {
+    width: 100%;
+}
+
+#footer {
+    background-color: black;
+}
+
+.text-footer {
+    text-align: center;
+    color: white;
+    padding: 32px 0px;
+}
+
+.text-footer a {
+    color: white;
+}
